@@ -6,6 +6,10 @@
   "bin": {
     "ini2json": "./cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hagb4rd/ini2json.git"
+  },
   "dependencies": {
     "ini": "^1.3.4",
     "minimist": "^1.2.0",
@@ -20,6 +24,6 @@
     "json",
     "convert"
   ],
-  "author": "",
+  "author": "hagb4rd@gmail.com",
   "license": "MIT"
 }

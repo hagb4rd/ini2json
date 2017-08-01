@@ -125,7 +125,7 @@ async function cli(args) {
 if(args.line) {
 	cli(args);
 } else {
-	pipe();
+	throw Error("USAGE:\ini2json --line [file] OR --ini [file] --o [file]");
 }
 
 

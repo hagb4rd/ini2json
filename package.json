@@ -1,0 +1,25 @@
+{
+  "name": "ini2json",
+  "version": "0.0.1",
+  "description": "parse ini to json",
+  "main": "ini2json.js",
+  "bin": {
+    "ini2json": "./cli.js"
+  },
+  "dependencies": {
+    "ini": "^1.3.4",
+    "minimist": "^1.2.0",
+    "parseini": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ini",
+    "json",
+    "convert"
+  ],
+  "author": "",
+  "license": "MIT"
+}
